@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+// Получить среднее двух целых
+func getSecondNumber(a int, b int) float64 {
+	fmt.Scan(&a) //Считывает значениеa a
+	fmt.Scan(&b) //Считывает значениеa b
+	sum := (float64(a) + float64(b)) / 2 //Вычисляет среднее двух целых чисел и сохраняет результат в sum  
+	return sum
+}
+
+func main() {
+
+	var x, y int
+	fmt.Println("Среднее двух целых", getSecondNumber(x, y)) //Вызывает функцию getSecondNumber и выводит результат на экран  
+}
