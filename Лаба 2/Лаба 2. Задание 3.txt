@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	//3 задание
+	fmt.Println("Задание 3:")
+	for i := 1; i <= 10; i++ { // цикл для перебора чисел от 1 до 10
+		fmt.Print(i, " ") // Выводит числа с пробелами
+	}
+	fmt.Println()
+
+}

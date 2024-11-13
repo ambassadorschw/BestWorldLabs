@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func strlength(str string) int {
+	return len(str) // возврат длины строки
+}
+
+func main() {
+	var word string // объявление переменной word типа string  
+	fmt.Scan(&word)
+	result := strlength(word) // вызывает функцию strlength и сохраняет результат в переменную result  
+	fmt.Println("Длина строки:", result)
+
+}

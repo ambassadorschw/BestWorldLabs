@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func checkNumber(num int) string { // функция проверяет какое число 
+	if num > 0 {
+		return "Positive" // если число больше нуля то, positive 
+	} else if num < 0 {
+		return "Negative" // если число больше нуля то, negative 
+	} else {
+		return "Zero" // если число равно нулю то, Zero
+	}
+}
+
+func main() {
+	var num int
+	fmt.Println("Задание 2:")
+	fmt.Scan(&num) // считывает число
+	fmt.Println(checkNumber(num)) // выводит функцию на экран
+}
